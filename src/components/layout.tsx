@@ -30,7 +30,7 @@ const Layout = ({ children }: Props): ReactElement => {
   return (
     <>
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
-      <div className="mx-auto my-0 max-w-screen-lg pt-0 px-4 pb-6">
+      <div className="max-w-screen-lg mx-auto my-0 pt-0 px-4 pb-6">
         <main>{children}</main>
         <footer className="mt-8">
           © {new Date().getFullYear()}, Built with

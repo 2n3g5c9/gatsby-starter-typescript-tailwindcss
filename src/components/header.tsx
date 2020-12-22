@@ -7,8 +7,8 @@ interface Props {
 }
 
 const Header = ({ siteTitle }: Props): ReactElement => (
-  <nav className="mb-6 bg-purple-800">
-    <div className="mx-auto my-0 max-w-screen-lg px-4 py-6">
+  <nav className="bg-purple-800 mb-6">
+    <div className="max-w-screen-lg mx-auto my-0 px-4 py-6">
       <h1 className="m-0">
         <Link to="/" className="text-white no-underline">
           {siteTitle}
