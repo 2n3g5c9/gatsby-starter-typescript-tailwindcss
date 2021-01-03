@@ -7,13 +7,6 @@ module.exports = {
   plugins: [
     // CSS
     `gatsby-plugin-postcss`,
-    {
-      resolve: 'gatsby-plugin-purgecss',
-      options: {
-        tailwind: true,
-        purgeOnly: ['src/styles/global.css'],
-      },
-    },
     // TypeScript
     `gatsby-plugin-typescript`,
     // Gatsby & React
