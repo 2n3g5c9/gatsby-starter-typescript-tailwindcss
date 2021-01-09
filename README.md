@@ -6,7 +6,7 @@
   Gatsby's default starter with TypeScript and Tailwind CSS support
 </h1>
 
-[![GitHub Actions](https://github.com/2n3g5c9/gatsby-starter-typescript-tailwindcss/workflows/Automated%20Checks/badge.svg)](https://github.com/2n3g5c9/gatsby-starter-typescript-tailwindcss/actions)
+[![GitHub Actions](https://github.com/2n3g5c9/gatsby-starter-typescript-tailwindcss/workflows/Checks%20on%20Push/badge.svg)](https://github.com/2n3g5c9/gatsby-starter-typescript-tailwindcss/actions)
 
 ## 🚀 Quick start
 
