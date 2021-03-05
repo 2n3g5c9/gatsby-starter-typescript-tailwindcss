@@ -1,7 +1,7 @@
 import React, { ReactElement } from 'react'
+import { StaticImage } from 'gatsby-plugin-image'
 
 import Layout from '../components/layout'
-import Image from '../components/image'
 import SEO from '../components/seo'
 
 const IndexPage = (): ReactElement => (
@@ -11,7 +11,13 @@ const IndexPage = (): ReactElement => (
     <p>Welcome to your new Gatsby site.</p>
     <p>Now go build something great.</p>
     <div className="max-w-xs mb-6">
-      <Image />
+      <StaticImage
+        src="../images/gatsby-astronaut.png"
+        width={300}
+        quality={95}
+        formats={['auto', 'webp', 'avif']}
+        alt="A Gatsby astronaut"
+      />
     </div>
   </Layout>
 )

@@ -1,3 +1,5 @@
+const path = require('path')
+
 module.exports = {
   siteMetadata: {
     title: `Gatsby TypeScript & Tailwind CSS Starter`,
@@ -7,9 +9,20 @@ module.exports = {
   plugins: [
     // CSS
     `gatsby-plugin-postcss`,
+    {
+      resolve: `gatsby-plugin-purgecss`,
+      options: {
+        tailwind: true,
+        purgeOnly: ['src/styles/global.css'],
+        content: [
+          path.join(process.cwd(), 'src/**/!(*.d).{js,ts,jsx,tsx,mdx}'),
+        ],
+      },
+    },
     // TypeScript
     `gatsby-plugin-typescript`,
     // Gatsby & React
+    `gatsby-plugin-image`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
