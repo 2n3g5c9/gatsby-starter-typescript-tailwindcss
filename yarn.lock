@@ -16,14 +16,14 @@
   dependencies:
     "@babel/highlight" "^7.10.4"
 
-"@babel/code-frame@7.12.11", "@babel/code-frame@^7.0.0", "@babel/code-frame@^7.10.4":
+"@babel/code-frame@7.12.11":
   version "7.12.11"
   resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.12.11.tgz#f4ad435aa263db935b8f10f2c552d23fb716a63f"
   integrity sha512-Zt1yodBx1UcyiePMSkWnU4hPqhwq7hGi2nFL1LeA3EUl+q2LQx16MISgJ0+z7dnmgvP9QtIleuETGOiOH1RcIw==
   dependencies:
     "@babel/highlight" "^7.10.4"
 
-"@babel/code-frame@^7.5.5":
+"@babel/code-frame@^7.0.0", "@babel/code-frame@^7.10.4", "@babel/code-frame@^7.5.5":
   version "7.12.13"
   resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.12.13.tgz#dcfc826beef65e75c50e21d3837d7d95798dd658"
   integrity sha512-HV1Cm0Q3ZrpCR93tkWOYiuYIgLxZXZFVG2VgK+MBWjUqZTundupbfx2aXarXuw5Ko5aMcjtJgbSs4vUGBS5v6g==
@@ -2937,18 +2937,7 @@ browserslist@4.14.2:
     escalade "^3.0.2"
     node-releases "^1.1.61"
 
-browserslist@^4.0.0, browserslist@^4.12.2, browserslist@^4.14.5, browserslist@^4.15.0:
-  version "4.16.1"
-  resolved "https://registry.yarnpkg.com/browserslist/-/browserslist-4.16.1.tgz#bf757a2da376b3447b800a16f0f1c96358138766"
-  integrity sha512-UXhDrwqsNcpTYJBTZsbGATDxZbiVDsx6UjpmRUmtnP10pr8wAYr5LgFoEFw9ixriQH2mv/NX2SfGzE/o8GndLA==
-  dependencies:
-    caniuse-lite "^1.0.30001173"
-    colorette "^1.2.1"
-    electron-to-chromium "^1.3.634"
-    escalade "^3.1.1"
-    node-releases "^1.1.69"
-
-browserslist@^4.16.3:
+browserslist@^4.0.0, browserslist@^4.12.2, browserslist@^4.14.5, browserslist@^4.15.0, browserslist@^4.16.3:
   version "4.16.3"
   resolved "https://registry.yarnpkg.com/browserslist/-/browserslist-4.16.3.tgz#340aa46940d7db878748567c5dea24a48ddf3717"
   integrity sha512-vIyhWmIkULaq04Gt93txdh+j02yX/JzlyhLYbV3YQCn/zvES3JnY7TifHHvvr1w5hTDluNKMkV05cs4vy8Q7sw==
@@ -3202,7 +3191,7 @@ caniuse-api@^3.0.0:
     lodash.memoize "^4.1.2"
     lodash.uniq "^4.5.0"
 
-caniuse-lite@^1.0.0, caniuse-lite@^1.0.30001173, caniuse-lite@^1.0.30001181:
+caniuse-lite@^1.0.0, caniuse-lite@^1.0.30001181:
   version "1.0.30001181"
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001181.tgz#4f0e5184e1ea7c3bf2727e735cbe7ca9a451d673"
   integrity sha512-m5ul/ARCX50JB8BSNM+oiPmQrR5UmngaQ3QThTTp5HcIIQGP/nPBs82BYLE+tigzm3VW+F4BJIhUyaVtEweelQ==
@@ -4561,11 +4550,6 @@ electron-to-chromium@^1.3.564, electron-to-chromium@^1.3.649:
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.681.tgz#facd915ae46a020e8be566a2ecdc0b9444439be9"
   integrity sha512-W6uYvSUTHuyX2DZklIESAqx57jfmGjUkd7Z3RWqLdj9Mmt39ylhBuvFXlskQnvBHj0MYXIeQI+mjiwVddZLSvA==
 
-electron-to-chromium@^1.3.634:
-  version "1.3.634"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.634.tgz#82ea400f520f739c4f6ff00c1f7524827a917d25"
-  integrity sha512-QPrWNYeE/A0xRvl/QP3E0nkaEvYUvH3gM04ZWYtIa6QlSpEetRlRI1xvQ7hiMIySHHEV+mwDSX8Kj4YZY6ZQAw==
-
 emoji-regex@^7.0.1:
   version "7.0.3"
   resolved "https://registry.yarnpkg.com/emoji-regex/-/emoji-regex-7.0.3.tgz#933a04052860c85e83c122479c4748a8e4c72156"
@@ -5785,10 +5769,10 @@ gatsby-legacy-polyfills@^1.0.0:
   dependencies:
     core-js-compat "^3.6.5"
 
-gatsby-link@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/gatsby-link/-/gatsby-link-3.0.0.tgz#e0448dfb7974fe0093522c9e24f8f1d8ebc5372d"
-  integrity sha512-HbwrTBRMu6FRIhVfcX5w+8ngPtvB4q/6CdgmieuAqukDWXOdlmIpgJKjTheiTcAUXswDcxkcGRNmn3tmPF+Wlg==
+gatsby-link@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/gatsby-link/-/gatsby-link-3.0.1.tgz#7fdef329da4cc9e53f9a306a68024fa4faa9b00c"
+  integrity sha512-lHzlYoBHB5tP4/3fb4crtleductDMoi5DcC140u4KKo7JyDqp24v8zDrd/iYa3sHlZagx1CxAtkghsIOJJbnBg==
   dependencies:
     "@babel/runtime" "^7.12.5"
     "@types/reach__router" "^1.3.7"
@@ -5933,10 +5917,10 @@ gatsby-plugin-utils@^1.0.0:
   dependencies:
     joi "^17.2.1"
 
-gatsby-react-router-scroll@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/gatsby-react-router-scroll/-/gatsby-react-router-scroll-4.0.0.tgz#7a94c4836d0325b2e9c80cbd717376476ceada3d"
-  integrity sha512-TS1Ya7UD/EwAlZHGPp9uDl+Qgzz4tmUA3K+jKMViarLG9LcrwY8tNTbMBZKyKsUcj6HDp8rfIu58TaDiDi/01A==
+gatsby-react-router-scroll@^4.0.1:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/gatsby-react-router-scroll/-/gatsby-react-router-scroll-4.0.1.tgz#ac9b7722057b7f14a28136f77e6aa984dbceff03"
+  integrity sha512-I0owccfyHioK6V8LhbRXkQde9YPbiDzMyA3SGy7p9zRWO5lqmpJU/0g+qf7UAZYYTeoaDyYOP9pek6KcIUwf8Q==
   dependencies:
     "@babel/runtime" "^7.12.5"
 
@@ -6057,10 +6041,10 @@ gatsby-transformer-sharp@^3.0.0:
     semver "^7.3.4"
     sharp "^0.27.0"
 
-gatsby@^3.0.2:
-  version "3.0.2"
-  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-3.0.2.tgz#8aba580f4dbc32757be620e438680aa545af0e08"
-  integrity sha512-eFaKCkzAPhI3+zmCQOoTLad0rE/RVfOlqxBPE8sjlwye/bHDG5q2V5ZNB2NHydQ4KgFvs//BcVFdUuXszvnAaQ==
+gatsby@^3.0.3:
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-3.0.3.tgz#9bbd6fbafebef27a3d6e616bc5341cc5aa3f49b1"
+  integrity sha512-MXW2xpFfK5k+CxDVo2iiy0ogoUdjoSqLi4Zri4vQy+4y26LUHfZkn6jNu83DVr5iXylm1P7eEJqwMQAhux2iLA==
   dependencies:
     "@babel/code-frame" "^7.10.4"
     "@babel/core" "^7.12.3"
@@ -6134,11 +6118,11 @@ gatsby@^3.0.2:
     gatsby-core-utils "^2.0.0"
     gatsby-graphiql-explorer "^1.0.0"
     gatsby-legacy-polyfills "^1.0.0"
-    gatsby-link "^3.0.0"
+    gatsby-link "^3.0.1"
     gatsby-plugin-page-creator "^3.0.0"
     gatsby-plugin-typescript "^3.0.0"
     gatsby-plugin-utils "^1.0.0"
-    gatsby-react-router-scroll "^4.0.0"
+    gatsby-react-router-scroll "^4.0.1"
     gatsby-telemetry "^2.0.0"
     glob "^7.1.6"
     got "8.3.2"
@@ -8783,11 +8767,6 @@ node-releases@^1.1.61, node-releases@^1.1.70:
   version "1.1.71"
   resolved "https://registry.yarnpkg.com/node-releases/-/node-releases-1.1.71.tgz#cb1334b179896b1c89ecfdd4b725fb7bbdfc7dbb"
   integrity sha512-zR6HoT6LrLCRBwukmrVbHv0EpEQjksO6GmFcZQQuCAy139BEsoVKPYnf3jongYW83fAa1torLGYwxxky/p28sg==
-
-node-releases@^1.1.69:
-  version "1.1.69"
-  resolved "https://registry.yarnpkg.com/node-releases/-/node-releases-1.1.69.tgz#3149dbde53b781610cd8b486d62d86e26c3725f6"
-  integrity sha512-DGIjo79VDEyAnRlfSqYTsy+yoHd2IOjJiKUozD2MV2D85Vso6Bug56mb9tT/fY5Urt0iqk01H7x+llAruDR2zA==
 
 noms@0.0.0:
   version "0.0.0"
