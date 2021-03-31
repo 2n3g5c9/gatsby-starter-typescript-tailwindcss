@@ -6,7 +6,7 @@
   "author": "Marc Molina <contact@marcm.dev>",
   "dependencies": {
     "autoprefixer": "^10.2.5",
-    "gatsby": "^3.0.3",
+    "gatsby": "^3.2.0",
     "gatsby-plugin-image": "^1.0.0",
     "gatsby-plugin-manifest": "^3.0.0",
     "gatsby-plugin-offline": "^4.0.0",
