@@ -26,7 +26,6 @@
     Use the Gatsby CLI to create a new site, specifying this starter.
 
     ```shell
-    # create a new Gatsby site using this starter
     gatsby new my-gatsby-project https://github.com/2n3g5c9/gatsby-starter-typescript-tailwindcss
     ```
 
