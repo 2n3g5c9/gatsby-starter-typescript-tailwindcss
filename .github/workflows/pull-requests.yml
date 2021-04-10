@@ -42,6 +42,7 @@ jobs:
       - name: Automerge Dependabot PR 🤖
         uses: actions/github-script@v3
         with:
+          github-token: ${{secrets.GITHUB_TOKEN}}
           script: |
             github.pulls.createReview({
               owner: context.payload.repository.owner.login,
