@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
-<img src="https://github.com/2n3g5c9/gatsby-starter-typescript-tailwindcss/workflows/Checks%20on%20Push/badge.svg" alt="actions-badge"/>
+<img src="https://github.com/2n3g5c9/gatsby-starter-typescript-tailwindcss/workflows/Automated%20Checks/badge.svg" alt="actions-badge"/>
 <img src="https://img.shields.io/github/license/2n3g5c9/gatsby-starter-typescript-tailwindcss" alt="license-badge">
 <img src="https://img.shields.io/github/repo-size/2n3g5c9/gatsby-starter-typescript-tailwindcss" alt="repo-size-badge">
 <img src="https://img.shields.io/github/last-commit/2n3g5c9/gatsby-starter-typescript-tailwindcss" alt="last-commit-badge">
