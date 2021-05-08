@@ -19,8 +19,6 @@ module.exports = {
         ],
       },
     },
-    // TypeScript
-    `gatsby-plugin-typescript`,
     // Gatsby & React
     `gatsby-plugin-image`,
     {
