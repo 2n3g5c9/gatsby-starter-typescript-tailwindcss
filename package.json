@@ -6,7 +6,7 @@
   "author": "Marc Molina <contact@marcm.dev>",
   "dependencies": {
     "autoprefixer": "^10.2.6",
-    "gatsby": "^3.7.1",
+    "gatsby": "^3.7.2",
     "gatsby-plugin-image": "^1.7.1",
     "gatsby-plugin-manifest": "^3.7.1",
     "gatsby-plugin-offline": "^4.7.1",
@@ -16,7 +16,7 @@
     "gatsby-plugin-sharp": "^3.7.1",
     "gatsby-source-filesystem": "^3.7.1",
     "gatsby-transformer-sharp": "^3.7.1",
-    "postcss": "^8.3.1",
+    "postcss": "^8.3.5",
     "prop-types": "^15.7.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -26,15 +26,15 @@
   "devDependencies": {
     "@types/react-dom": "^17.0.7",
     "@types/react-helmet": "^6.1.1",
-    "@typescript-eslint/eslint-plugin": "^4.26.1",
-    "@typescript-eslint/parser": "^4.26.1",
+    "@typescript-eslint/eslint-plugin": "^4.27.0",
+    "@typescript-eslint/parser": "^4.27.0",
     "cssnano": "^5.0.6",
     "eslint": "^7.28.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^3.4.0",
     "eslint-plugin-react": "^7.24.0",
     "prettier": "^2.3.1",
-    "typescript": "^4.3.2"
+    "typescript": "^4.3.4"
   },
   "keywords": [
     "gatsby",
