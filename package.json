@@ -6,7 +6,7 @@
   "author": "Marc Molina <contact@marcm.dev>",
   "dependencies": {
     "autoprefixer": "^10.3.1",
-    "gatsby": "^3.11.0",
+    "gatsby": "^3.11.1",
     "gatsby-plugin-image": "^1.11.0",
     "gatsby-plugin-manifest": "^3.11.0",
     "gatsby-plugin-offline": "^4.11.0",
@@ -26,8 +26,8 @@
   "devDependencies": {
     "@types/react-dom": "^17.0.9",
     "@types/react-helmet": "^6.1.2",
-    "@typescript-eslint/eslint-plugin": "^4.29.0",
-    "@typescript-eslint/parser": "^4.29.0",
+    "@typescript-eslint/eslint-plugin": "^4.29.1",
+    "@typescript-eslint/parser": "^4.29.1",
     "cssnano": "^5.0.7",
     "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.3.0",
